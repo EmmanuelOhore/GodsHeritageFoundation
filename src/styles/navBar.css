@@ -1,0 +1,194 @@
+:root {
+  --background: #f9f9f9; /* Light, clean background */
+  --primary-color: #007bff; /* Trustworthy blue */
+  --secondary-color: #28a745; /* Optimistic green */
+  --accent-color: #ffc107; /* Attention-grabbing yellow */
+  --text-color: #343a40; /* Dark, readable text */
+  --border-color: #dee2e6; /* Subtle, professional border */
+  --icon-color: #6c757d; /* Muted icon color */
+  --button-color: #2a152f; /* Primary button */
+  --button-hover: #004085; /* Darker shade for button hover */
+}
+
+nav {
+  height: 6rem;
+  display: flex;
+  z-index: 50;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.bars {
+  display: none;
+}
+.logo_container,
+.nav_links,
+.nav_button {
+  gap: 1.5rem;
+  align-items: center;
+  display: flex;
+}
+/* logo styling */
+.logo_container {
+  gap: 0.5rem;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+.logo_container img {
+  border-radius: 1rem;
+}
+.logo_container h1 {
+  font-size: 2rem;
+}
+
+/*  nav_links styling */
+.nav_links li p {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 350ms ease-in-out;
+}
+.nav_links li p:hover {
+  color: var(--primary-color);
+}
+
+/* nav butto styling */
+.nav_button {
+  gap: 0.5rem;
+}
+.nav_button button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--button-color);
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+}
+.nav_button button:hover {
+  background-color: var(--button-hover);
+}
+.nav_button .search_container {
+  position: relative;
+}
+.nav_button .search_container input {
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+.nav_button .search_container i {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--button-color);
+}
+.nav_button .search_container input:focus {
+  border: 1px solid var(--button-hover);
+}
+
+/* responsove design  */
+@media (max-width: 1024px) {
+  /* nav bar stylng */
+  nav {
+    padding: 0 1.5rem;
+    height: 5.5rem;
+  }
+  /* nav link general stying */
+  .logo_container,
+  .nav_links,
+  .nav_button {
+    gap: 1rem;
+  }
+  /* logo styling */
+  .logo_container {
+    gap: 0.3rem;
+  }
+  .logo_container h1 {
+    font-size: 1.7rem;
+  }
+  /*  nav_links styling */
+  .nav_links li p {
+    font-size: 0.9rem;
+  }
+
+  /* nav butto styling */
+  .nav_button {
+    gap: 0.3rem;
+  }
+  .nav_button button {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  .nav_button .search_container input {
+    padding: 0.5rem 0.2rem;
+  }
+}
+
+/* tablet styling */
+@media (max-width: 800px) {
+  /* hambeguer meenu styling */
+  nav {
+    position: relative;
+  }
+  .bars {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    display: block;
+    position: absolute;
+    right: 2rem;
+  }
+  /* nav_links_conatiner styling */
+  .nav_links_conatiner,
+  .nav_button {
+    outline: 1px solid red;
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    padding: 0.5rem;
+  }
+  .fa-solid {
+    font-size: 1.4rem;
+    top: 1.6rem;
+  }
+  .bars {
+    font-size: 1.1rem;
+    top: 2.2rem;
+  }
+  .img-container {
+    width: 80px;
+    height: 40px;
+  }
+  .logo_container h1 {
+    font-size: 1.4rem;
+  }
+  .logo_container img {
+    border-radius: 0.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .img-container {
+    width: 60px;
+    height: 30px;
+  }
+  .bars {
+    font-size: 0.9rem;
+    top: 2rem !important;
+  }
+  .logo_container h1 {
+    font-size: 1.2rem;
+  }
+  .fa-solid {
+    font-size: 1.2rem;
+    top: 1.8rem;
+  }
+}
