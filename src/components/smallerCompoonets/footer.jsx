@@ -21,8 +21,8 @@ const Footer = () => {
       delay: "400",
     },
     {
-      href: "https://www.instagram.com/god_heritage_foundation/profilecard/?igsh=NGN0ZjB2azB4b2s0",
-      iconClass: "fa-brands fa-youtube",
+      href: "https://www.linkedin.com/company/mishpacha-god-s-heritage-foundation/",
+      iconClass: "fa-brands fa-linkedin text-[#0077b5]",
       delay: "600",
     },
   ];

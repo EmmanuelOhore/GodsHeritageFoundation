@@ -77,7 +77,7 @@ const About = () => {
                 Take the First step Today
               </h2>
               <p data-aos="fade-down">
-                Joining The PUSH Foundation can also be a great way to meet
+                Joining The GHF Foundation can also be a great way to meet
                 like-minded individuals who share your passion for serving
                 others and making the world a better place.
               </p>
