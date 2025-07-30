@@ -8,8 +8,8 @@ import ScrolltoTop from "../smallerCompoonets/ScrolltoTop";
 import Background from "../smallerCompoonets/Background";
 // images
 import whoweare from "../../assets/replacement1.jpg";
-import imgtwo from "../../assets/ORPHANAGE VISITS/IMG_2485.JPG";
-import imgthree from "../../assets/ORPHANAGE VISITS/IMG_2485.JPG";
+import imgtwo from "../../assets/replacement2.png";
+import imgthree from "../../assets/replacement3.jpg";
 import InitiativeBox from "../smallerCompoonets/intitativeBox";
 import education from "../../assets/MEDICAL AWARENESS/IMG_2486.JPG";
 import medical from "../../assets/WORLD FOOD DAY/IMG_2497.JPG";
@@ -47,7 +47,9 @@ const Home = () => {
       {/* section home content */}
       <section className="home_content relative">
         <Background />
-        <h1 className="!text-white">We Are Touching Lives in Africa</h1>
+        <h1 className="!text-white w-[50%] text-center !text-[35px] tablet:w-[80%] tablet:!text-[30px] phoneL:w-full phoneL:!text-[20px]">
+          <span> Changing Stories </span> Transforming Generations
+        </h1>
         <div className="btn_container">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfFupSlYU2qTdY2a1A28Vjy4eLJkhkHZunyRzY3Gr_Ry41emA/viewform?vc=0&c=0&w=1&flr=0&pli=1"
@@ -109,7 +111,9 @@ const Home = () => {
       <section className="aside_main_container tablet:!h-auto tablet:!mt-20 ">
         <div className="aside_content laptop:!w-[90%] tablet:flex-col-reverse tablet:!static tablet:!w-full tablet:!translate-x-0 ">
           <div className="aside_text tablet:!w-full">
-            <h2 data-aos="fade-up">Lets Keep Pushing</h2>
+            <h2 className="font-semibold" data-aos="fade-up">
+              Transforming lives
+            </h2>
             <div data-aos="fade-down" className="aside_line">
               <p>
                 We are called to touch lives, with the mission of eradicating

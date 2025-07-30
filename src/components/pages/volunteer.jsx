@@ -1,6 +1,6 @@
 import NavigationHeader from "../smallerCompoonets/navigationheader";
 import imgtwo from "../../assets/THE SMILE OF A HUNDRED 1ST EDITION/IMG_2481.JPG";
-import imgone from "../../assets/img1.webp";
+import imgone from "../../assets/replacement6.jpg";
 import ScrolltoTop from "../smallerCompoonets/ScrolltoTop";
 import Aos from "aos";
 import Footer from "../smallerCompoonets/footer";

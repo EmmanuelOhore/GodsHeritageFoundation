@@ -1,6 +1,6 @@
 import Footer from "../smallerCompoonets/footer";
-import imgone from "../../assets/FLYERS/IMG_2974.PNG";
-import imgthree from "../../assets/FLYERS/IMG_2971.PNG";
+import imgone from "../../assets/replacement4.jpg";
+import imgthree from "../../assets/replacement5.jpg";
 import imgfour from "../../assets/im2.jpeg";
 import imgfive from "../../assets/THE HELPING HANDS 1ST EDITION/IMG_2532.jpg";
 import ScrolltoTop from "../smallerCompoonets/ScrolltoTop";
@@ -26,8 +26,13 @@ const About = () => {
           <div className="vision_mission_container phoneL:flex-col">
             {/* vision container */}
             <div className="vision_container container_box phoneL:!w-full">
-              <div className="img_container ">
-                <img data-aos="zoom-in" src={imgone} alt="Placeholder Image" />
+              <div className="img_container h-[20rem] ">
+                <img
+                  data-aos="zoom-in"
+                  src={imgone}
+                  alt="Placeholder Image"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
               <div className="text_container">
                 <h2 className="!text-[#2a152f]">Our Vision</h2>
@@ -39,11 +44,12 @@ const About = () => {
             </div>
             {/* mission conainter */}
             <div className="mission_container container_box  phoneL:!w-full">
-              <div className="img_container">
+              <div className="img_container h-[20rem]">
                 <img
                   data-aos="zoom-in"
                   src={imgthree}
                   alt="Placeholder Image"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="text_container">

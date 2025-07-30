@@ -1,13 +1,13 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/navcomponents/navBar";
-import Home from "./components/navigationComponent/home";
-import About from "./components/navigationComponent/about";
-import Volunteer from "./components/navigationComponent/volunteer";
-import Initiatives from "./components/navigationComponent/initiatives";
-import DonatePage from "./components/navigationComponent/Donate";
-import Gallery from "./components/navigationComponent/Gallery";
-import ContactUs from "./components/navigationComponent/contactUs";
+import Home from "./components/pages/home";
+import About from "./components/pages/about";
+import Volunteer from "./components/pages/volunteer";
+import Initiatives from "./components/pages/initiatives";
+import DonatePage from "./components/pages/Donate";
+import Gallery from "./components/pages/Gallery";
+import ContactUs from "./components/pages/contactUs";
 import ToTopBtn from "./components/smallerCompoonets/toTopBTn";
 
 function App() {
