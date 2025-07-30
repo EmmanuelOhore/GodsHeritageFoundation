@@ -7,7 +7,7 @@ import Footer from "../smallerCompoonets/footer";
 import ScrolltoTop from "../smallerCompoonets/ScrolltoTop";
 import Background from "../smallerCompoonets/Background";
 // images
-import whoweare from "../../assets/FLYERS/IMG_2971[1].PNG";
+import whoweare from "../../assets/replacement1.jpg";
 import imgtwo from "../../assets/ORPHANAGE VISITS/IMG_2485.JPG";
 import imgthree from "../../assets/ORPHANAGE VISITS/IMG_2485.JPG";
 import InitiativeBox from "../smallerCompoonets/intitativeBox";
